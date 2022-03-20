@@ -1,0 +1,139 @@
+@media  (max-width: 768px) {
+    * {
+        margin: 0;
+    }
+ 
+    
+    #div-top {
+        /* display: flex; */
+        /* display: grid;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+            "div-circle div-signature-whatsapp-telegram-facebook"
+            ; */
+        flex-wrap: wrap;
+        /* width: auto; */
+        height: 210px;
+        background-color: #eae1d1;
+        justify-content: left;
+        position: relative;
+    }
+    
+     #div-circle {
+        width: 250px;
+        height: 250px;
+        background-color: #ea9f1b;
+        /* margin: 0; */
+        clip-path: circle(84% at 0 0);
+        /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+        /* grid-area: div-circle;  */
+    }
+    
+    .shadow-div-top {
+            filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.3)); 
+            box-shadow: -1px -3px 3px rgba (0,0,0, .2);
+    }
+    
+    #div-signature {
+        /* width: 400px; */
+        /* margin: 0 100px 0 auto;
+        grid-area: div-signature; */
+        background-color: yellow;
+        
+    }
+    
+    #container-signature-whatsapp-telegram-facebook {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* height: 200px; */
+        /* margin-top: 20px; */
+        /* margin-right: 250px; */
+        /* width: 100%; */
+        /* background-color: blue; */
+        /* margin-right: 0px;
+        margin-left: 0px; */
+    }
+    
+    #img-signature {
+        display: none;
+    }
+
+    #img-signature400px {
+        display: flex;
+        width: 400px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    
+    #img-foto-psicologa {
+        width: 130px;
+        margin: 20px 0 0 20px;
+    }
+    
+     #signature-whatsapp /*{
+        display: block;
+    } */
+    
+    #div-whatsapp-facebook-telegram {
+        /* display: flex;
+        margin: auto; */
+        /* width: 400px; */
+        /* margin-left: 150px; */
+        /* background-color: rebeccapurple; */
+        /* grid-area: div-whatsapp-facebook-telegram; */
+    }
+    
+    #img-whatsapp {
+        display: none;
+    }
+
+    #img-whatsapp40px {
+        display: inline;
+        height: 40px;
+    }
+    
+    #img-telegram {
+       display: none;
+    }
+
+    #img-telegram40px {
+        display: inline;
+        margin-left: 10px;
+        height: 40px;
+     }
+    
+    #img-facebook {
+       display: none;
+    }
+    
+    #img-facebook40px {
+        display: inline;
+        margin-left: 5px;
+        height: 40px;
+     }
+
+    #link-whatsapp {
+        text-decoration: none;
+    }
+    
+    #link-telegram {
+        text-decoration: none;
+    }
+    
+    #link-facebook {
+       text-decoration: none;
+    }
+    
+    #div-main {
+        position: static;
+        margin-top: 30px;
+        width: auto;
+        height: auto;
+        background-color: blue;
+    }
+    
+    .paragraph {
+        /*margin-top: 1000px;*/
+    }
+}

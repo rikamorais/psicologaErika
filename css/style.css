@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+#top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 335px;
+    background-color: #eae1d1;
+    /* justify-content: center; */
+    position: absolute;
+}
+
+#circle {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 400px;
+    height: 400px;
+    background-color: #ea9f1b;
+    margin: 0 0 50px 0;
+    /* clip-path: ellipse(50% 40% at 50% 0%); */
+    /* clip-path: ellipse(20% 40% at 0% 0%); */
+    clip-path: circle(84% at 0 0);
+
+}
+
+#signature {
+    width: 695px;
+    height: 127px;
+    margin: 70px 0 0 70px;
+}
+
+#foto_psicologa {
+    width: 200px;
+    margin: 30px;
+}
+
+#signature-whatsapp-facebook {
+    display: block;
+}
+
+/* #signature-whatsapp {
+    display: block;
+} */
+
+#whatsapp-facebook {
+    width: 410px;
+    margin: 50px auto 50px auto;
+    /* background-color: rebeccapurple; */
+}
+
+#facebook-img {
+    margin-left: 50px;
+}
+
+#whatsapp-img {
+    /* width: 50px; */
+}

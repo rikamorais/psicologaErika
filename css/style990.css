@@ -1,0 +1,113 @@
+@media (max-width: 800px) {
+    * {
+        margin: 0;
+    }
+    
+    #div-top {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+            "div-circle div-signature-whatsapp-telegram-facebook";
+        flex-wrap: wrap;
+        width: 100%;
+        height: 250px;
+        background-color: #eae1d1;
+        justify-content: left;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    
+     #div-circle {
+        width: 300px;
+        height: 300px;
+        background-color: #ea9f1b;
+        margin: auto;
+        clip-path: circle(84% at 0 0);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        grid-area: div-circle; 
+    }
+    
+    .shadow-div-top {
+            filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.3)); 
+            box-shadow: -1px -3px 3px rgba (0,0,0, .2);
+    }
+    
+    #div-signature {
+        width: 600px;
+        margin: auto;
+        grid-area: div-signature;
+        /* background-color: yellow; */
+    }
+    
+    #container-signature-whatsapp-telegram-facebook {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 250px;
+        margin-top: 20px;
+        margin-right: 250px;
+        /* width: 100%; */
+        /* background-color: blue; */
+    }
+    
+    #img-signature {
+        width: 500px;
+    }
+    
+    #img-foto-psicologa {
+        width: 160px;
+        margin: 20px 0 0 20px;
+    }
+    
+     #signature-whatsapp /*{
+        display: block;
+    } */
+    
+    #div-whatsapp-facebook-telegram {
+        width: 650px;
+        margin: auto;
+        background-color: rebeccapurple;
+        grid-area: div-whatsapp-facebook-telegram;
+    }
+    
+    #img-whatsapp {
+        height: 40px;
+    }
+    
+    #img-telegram {
+       height: 40px;
+       margin-left: 20px;
+    }
+    
+    #img-facebook {
+        height: 40px;
+       margin-left: 15px;
+    }
+    
+    #link-whatsapp {
+        /*text-decoration: none;*/
+    }
+    
+    #link-telegram {
+        /*text-decoration: none;*/
+    }
+    
+    #link-facebook {
+       /* text-decoration: none;*/
+    }
+    
+    #div-main {
+        /*position: static;
+        margin-top: 270px;
+        width: 100%;
+        height: auto;
+        background-color: blue;*/
+    }
+    
+    .paragraph {
+        /*margin-top: 1000px;*/
+    }
+}
